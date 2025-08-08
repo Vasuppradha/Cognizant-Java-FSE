@@ -1,0 +1,67 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  padding: 30px;
+}
+
+.title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px 16px;
+  cursor: pointer;
+  background-color: #2d7dd2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1b5fa7;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.section {
+  width: 30%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  color: #2d7dd2;
+  margin-bottom: 10px;
+}
+
+.section h4 {
+  margin: 8px 0 4px;
+  color: #333;
+}
+
+.section p {
+  margin: 0 0 10px;
+  color: #555;
+}
